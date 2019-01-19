@@ -20,8 +20,8 @@ public class ServletLogin extends HttpServlet {
             request.getSession().setAttribute("nom", nom);
             request.getSession().setAttribute("nav", 1);
 
-            // redirection vers le servlet todo
-            response.sendRedirect("todo");
+            // redirection vers le servlet menu
+            response.sendRedirect("menu");
         } else {
             // retour a la page login.jsp
             request.getSession().setAttribute("nav", 0);
