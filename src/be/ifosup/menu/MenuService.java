@@ -8,10 +8,10 @@ public class MenuService {
     private static List<Menu> menus = new ArrayList<>();
 
     static {
-        menus.add(new Menu("Diy-EM", "Marbais SC", "Football"));
+        /*menus.add(new Menu("Diy-Em", "Marbais SC", "Football"));
         menus.add(new Menu("Kevin", "Boitsfort SC", "Basketball"));
         menus.add(new Menu("Saad" , "Louvain-La-Neuve SC", "Volleyball"));
-        menus.add(new Menu("Josiane","Uccle SC", "Natation" ));
+        menus.add(new Menu("Josiane","Uccle SC", "Natation" ));*/
     }
 
     public List<Menu> recupereTodo(){

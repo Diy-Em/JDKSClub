@@ -16,13 +16,13 @@
                 <p class="bg-danger text-white">${errorMessage}</p>
                 <div class="form-group">
                     <input class="form-control" type="text" name="nom"
-                           placeholder="Nom">
+                           placeholder="Administrateur">
                 </div>
                 <div class="form-group">
                     <input class="form-control" type="password" name="pass"
                            placeholder="Mot de passe">
                 </div>
-                <input class="btn btn-primary btn-block" type="submit" value="login">
+                <input class="btn btn-primary btn-block" type="submit" value="Login">
             </form>
         </div>
     </div>

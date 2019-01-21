@@ -58,7 +58,7 @@ public class Menu {
 
     @Override
     public String toString() {
-        return "Todo{" +
+        return "Menu{" +
                 "nom='" + nom + '\'' +
                 ", club='" + club + '\'' +
                 ", sport='" + sport + '\'' +

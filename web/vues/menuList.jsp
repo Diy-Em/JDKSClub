@@ -4,16 +4,16 @@
 <div class="container contenu">
     <main class="row justify-content-center">
         <div class="col-6">
-            <h4>Liste des trucs a faire</h4>
+            <h4>Liste des membres</h4>
             <table class="table table-striped table-hover table-bordered">
                 <thead class="thead-dark">
                 <tr>
-                    <th>Noms</th>
-                    <th>Clubs</th>
-                    <th>Sports</th>
+                    <th>Nom</th>
+                    <th>Club</th>
+                    <th>Sport</th>
+                    <th> </th>
                 </tr>
                 </thead>
-                <-- -->
                 <tbody>
                 <c:forEach items="${menus}" var="menu">
                     <tr>
@@ -21,7 +21,7 @@
                         <td>${menu.club}</td>
                         <td>${menu.sport}</td>
                         <td class="text-center">
-                            <a href="supTodo?menu=${menu.nom}&club=${menu.club}&sport=${menu.sport}">
+                            <a href="supMenu?nom=${menu.nom}&club=${menu.club}&sport=${menu.sport}">
                                 <i class="fas fa-trash-alt"></i>
                             </a>
                         </td>
@@ -31,8 +31,8 @@
                 </tbody>
             </table>
 
-            <a href="add-todo" class="btn btn-info btn-block">
-                <i class="fa fa-plus"></i> Nouvelle affiliation
+            <a href="add-menu" class="btn btn-info btn-block">
+                <i class="fa "></i> Nouvelle affiliation
             </a>
 
         </div><!-- fin col-6 -->
